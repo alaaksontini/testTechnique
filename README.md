@@ -1,26 +1,25 @@
-# Alphalyr Test Technique (test-technique)
+# Test Technique (test-technique)
 
-Alphalyr Test Technique
+Ce projet est basé sur le Framework Quasar (Voir [Quasar Documentation](https://v0-17.quasar-framework.org/guide)) construit au tour de VueJS.
 
-## Install the dependencies
-```bash
-npm install
-```
+Vous utiliserez l'API Rest [JsonPlaceholder](https://jsonplaceholder.typicode.com) en vous appuyant en particulier sur les endpoints suivants:
+* Posts
+* Comments
+* Users
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+Votre tâche consiste à réaliser deux pages:
 
-### Lint the files
-```bash
-npm run lint
-```
+### Un flux de Post:
+* Listing des Post et les commentaires associés
+* Ajout de commentaires
 
-### Build the app for production
-```bash
-quasar build
-```
+### Une page de profil utilisateur.
+* affichage du profil utilisateur
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+
+Votre code doit impérativement comprendre:
+* Un composant personnalisé `PostComponent` pour l'affichage d'un Post.
+* Un composant personnalisé `CommentsComponent` pour la saisie et l'affichage des commentaires.
+
+Pour tout le reste vous pouvez laisser libre cours à votre imagination. Des points bonus pour l'esthétique et la simplicité d'utilisation des interfaces.
+
