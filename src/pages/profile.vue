@@ -43,7 +43,6 @@
 </template>
 <script>
 import axios from 'axios'
-// import CommentsComponent from 'src/components/CommentsComponent.vue'
 export default {
   name: 'PageIndex',
   data () {
@@ -70,7 +69,6 @@ export default {
       })
   },
   components: {
-    // 'comments': CommentsComponent
   }
 }
 </script>

@@ -4,7 +4,6 @@
   </q-page>
 </template>
 <script>
-// import CommentsComponent from 'src/components/CommentsComponent.vue'
 export default {
   name: 'PageIndex',
   data () {
@@ -12,7 +11,6 @@ export default {
     }
   },
   components: {
-    // 'comments': CommentsComponent
   }
 }
 </script>
