@@ -1,11 +1,18 @@
 <template>
   <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
+
   </q-page>
 </template>
-
 <script>
+// import CommentsComponent from 'src/components/CommentsComponent.vue'
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  data () {
+    return {
+    }
+  },
+  components: {
+    // 'comments': CommentsComponent
+  }
 }
 </script>
